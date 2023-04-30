@@ -16,7 +16,7 @@ if (userAsks.toUpperCase() === useranswer.toUpperCase()) {
   console.log("Proceed Now ! ")
   var response = readlineSync.question("Write ENTER to start Question : ");
 } else {
-  console.log("You Selected Wrong Key!")
+  console.log("Sorry You Selected Wrong Key!")
 }
 
 
